@@ -1,0 +1,138 @@
+{
+  "sensores": [
+    {
+      "id": "sensor1",
+      "ubicacion": {
+        "latitud": -34.6037,
+        "longitud": -58.3816,
+        "altitud": 25.4,
+        "direccion": "Av. Corrientes 1234, Buenos Aires, Argentina",
+        "zona_horaria": "America/Argentina/Buenos_Aires"
+      },
+      "mediciones": {
+        "temperatura": 22.5,
+        "humedad": 65.2,
+        "presion": 1013.25,
+        "viento": {
+          "velocidad": 10.5,
+          "direccion": "NE"
+        },
+        "indice_calidad_aire": 42
+      },
+      "bateria": 87,
+      "estado": "activo",
+      "historial": [
+        { "fecha": "2025-03-26T14:20:00Z", "temperatura": 22.3, "humedad": 65.5, "presion": 1013.3 },
+        { "fecha": "2025-03-26T14:10:00Z", "temperatura": 22.1, "humedad": 65.7, "presion": 1013.4 }
+      ]
+    },
+    {
+      "id": "sensor2",
+      "ubicacion": {
+        "latitud": -34.61,
+        "longitud": -58.385,
+        "altitud": 30.2,
+        "direccion": "Calle Florida 750, Buenos Aires, Argentina",
+        "zona_horaria": "America/Argentina/Buenos_Aires"
+      },
+      "mediciones": {
+        "temperatura": 24.1,
+        "humedad": 60.8,
+        "presion": 1012.9,
+        "viento": {
+          "velocidad": 12.0,
+          "direccion": "E"
+        },
+        "indice_calidad_aire": 45
+      },
+      "bateria": 78,
+      "estado": "activo",
+      "historial": [
+        { "fecha": "2025-03-26T14:22:00Z", "temperatura": 23.9, "humedad": 61.0, "presion": 1013.0 },
+        { "fecha": "2025-03-26T14:12:00Z", "temperatura": 23.8, "humedad": 61.2, "presion": 1013.1 }
+      ]
+    },
+    {
+      "id": "sensor3",
+      "ubicacion": {
+        "latitud": -34.6155,
+        "longitud": -58.3902,
+        "altitud": 22.8,
+        "direccion": "Av. Santa Fe 3200, Buenos Aires, Argentina",
+        "zona_horaria": "America/Argentina/Buenos_Aires"
+      },
+      "mediciones": {
+        "temperatura": 21.9,
+        "humedad": 70.1,
+        "presion": 1014,
+        "viento": {
+          "velocidad": 9.8,
+          "direccion": "SE"
+        },
+        "indice_calidad_aire": 40
+      },
+      "bateria": 90,
+      "estado": "activo",
+      "historial": [
+        { "fecha": "2025-03-26T14:24:00Z", "temperatura": 21.7, "humedad": 70.3, "presion": 1014.1 },
+        { "fecha": "2025-03-26T14:14:00Z", "temperatura": 21.6, "humedad": 70.4, "presion": 1014.2 }
+      ]
+    },
+    {
+      "id": "sensor4",
+      "ubicacion": {
+        "latitud": -34.6203,
+        "longitud": -58.3951,
+        "altitud": 28.5,
+        "direccion": "Av. Rivadavia 5400, Buenos Aires, Argentina",
+        "zona_horaria": "America/Argentina/Buenos_Aires"
+      },
+      "mediciones": {
+        "temperatura": 23.3,
+        "humedad": 62.5,
+        "presion": 1013.5,
+        "viento": {
+          "velocidad": 11.2,
+          "direccion": "N"
+        },
+        "indice_calidad_aire": 43
+      },
+      "bateria": 85,
+      "estado": "activo",
+      "historial": [
+        { "fecha": "2025-03-26T14:26:00Z", "temperatura": 23.1, "humedad": 62.7, "presion": 1013.6 },
+        { "fecha": "2025-03-26T14:16:00Z", "temperatura": 23.0, "humedad": 62.8, "presion": 1013.7 }
+      ]
+    },
+    {
+      "id": "sensor5",
+      "ubicacion": {
+        "latitud": -34.625,
+        "longitud": -58.4008,
+        "altitud": 26.7,
+        "direccion": "Av. Cabildo 2200, Buenos Aires, Argentina",
+        "zona_horaria": "America/Argentina/Buenos_Aires"
+      },
+      "mediciones": {
+        "temperatura": 22,
+        "humedad": 68.3,
+        "presion": 1012.8,
+        "viento": {
+          "velocidad": 10.0,
+          "direccion": "O"
+        },
+        "indice_calidad_aire": 41
+      },
+      "bateria": 88,
+      "estado": "activo",
+      "historial": [
+        { "fecha": "2025-03-26T14:28:00Z", "temperatura": 21.8, "humedad": 68.5, "presion": 1012.9 },
+        { "fecha": "2025-03-26T14:18:00Z", "temperatura": 21.7, "humedad": 68.6, "presion": 1013.0 }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_sensores": 5,
+    "ultima_actualizacion": "2025-03-26T14:38:00Z"
+  }
+}
